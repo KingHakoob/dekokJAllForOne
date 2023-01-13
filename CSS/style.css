@@ -1,0 +1,819 @@
+/* General Use */
+.navbarPadding {
+    padding-bottom: 0rem;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 2.5rem;
+}
+.navbar-brand:hover { color: white; }
+
+.navTxt {
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: end;
+    margin-right: 4%;
+}
+
+.flexCentered {
+    display: flex;
+    justify-content: center;
+}
+/* General Use */
+
+/* Home Page */
+#homeBody {
+    background-image: url("../Assets/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#homeNav {
+    background-color: rgb(7, 221, 215);
+    padding-bottom: 0rem;
+}
+
+.navbarPadding {
+    padding-bottom: 0rem;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.navTxt {
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: end;
+    margin-right: 4%;
+}
+
+#homeBtns {
+    padding-top: 25%;
+}
+
+.homeLeftBtnCol {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.leftBtns {
+    color: black;
+    background-color: #906FA5;
+    border: #E9DF6A solid 0.1rem;
+}
+
+.leftBtns:hover { 
+    color: black;
+    background-color: #E9DF6A;
+    border: #E9DF6A solid 0.1rem;
+}
+
+.homeCenterBtnCol {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.centerBtns {
+    color: black;
+    background-color: #0BD0C8;
+    border: #9ED160 solid 0.1rem;
+}
+
+.centerBtns:hover { 
+    color: black;
+    background-color: #9ED160;
+    border: #9ED160 solid 0.1rem;
+}
+
+#middleCenterBtn {
+    border-color: #F7FBFC;
+}
+
+#middleCenterBtn:hover { 
+    color: black;
+    background-color: #F7FBFC;
+    border: #F7FBFC solid 0.1rem;
+}
+
+.homeRightBtnCol {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.rightBtns {
+    color: black;
+    background-color: #F0D48A;
+    border: #EB365F solid 0.1rem;
+}
+
+.rightBtns:hover { 
+    color: black;
+    background-color: #EB365F;
+    border: #EB365F solid 0.1rem;
+}
+
+#middleRightBtn {
+    border-color: #2BC5E7;
+}
+
+#middleRightBtn:hover { 
+    color: black;
+    background-color: #2BC5E7;
+    border: #2BC5E7 solid 0.1rem;
+}
+
+#bottomRightBtn {
+    border-color: #CDD46E;
+}
+
+#bottomRightBtn:hover { 
+    color: black;
+    background-color: #CDD46E;
+    border: #CDD46E solid 0.1rem;
+}
+/* Home Page */
+
+/* Say Hello */
+#sayHelloBody {
+    background-image: url("../Assets/sayHello.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#sayHelloNav {
+    background-color: #EBA971;
+    padding-bottom: 0rem;
+}
+
+#ch1Txt {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.enterNameCol {
+    display: flex;
+    justify-content: center;
+}
+
+#ch1Input {
+    background-color: rgba(255, 255, 255, 0);;
+    border: none;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+}
+
+#ch1Input::placeholder{
+    color: black;
+}
+
+#ch1SubmitBtnCol {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+#ch1SubmitBtn {
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: black;
+    background-color: #EBA971;
+    border: black solid 0.15rem;
+}
+
+#ch1SubmitBtn:hover { 
+    color: white;
+    background-color: black;
+    border: black solid 0.1rem;
+}
+/* Say Hello */
+
+/* Adding Numbers */
+#addingNumbersBody {
+    background-image: url("../Assets/addingTwoNumbers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#addingNav {
+    background-color: #C74665;
+    padding-bottom: 0rem;
+}
+
+#addingNumbersRow {
+    padding-top: 17.5rem;
+}
+
+#addingNumbersLeftCol {
+    display: flex;
+    justify-content: left;
+}
+
+#addingNumbersRightCol {
+    display: flex;
+    justify-content: right;
+}
+
+#ch2Txt {
+    color: white;
+}
+
+#ch2Input1 {
+    background-color: rgba(255, 255, 255, 0);;
+    border: none;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+}
+
+#ch2Input1::placeholder{
+    color: black;
+}
+#ch2Input2 {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+}
+
+#ch2Input2::placeholder{
+    color: black;
+}
+
+#ch2SubmitRow {
+    padding-top: 10rem;
+}
+
+#ch2SubmitBtn {
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: black;
+    background-color: #EBB7BF;
+    border: black solid 0.15rem;
+}
+
+#ch2SubmitBtn:hover { 
+    color: white;
+    background-color: black;
+    border: black solid 0.1rem;
+}
+/* Adding Numbers */
+
+/* Asking Questions */
+#askingQuestionsBody {
+    background-image: url("../Assets/askingQuestions.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#askingNav {
+    background-color: #C74665;
+    padding-bottom: 0rem;
+}
+
+.nameAndFoodCol {
+    display: flex;
+    justify-content: end;
+}
+
+#ch3Txt {
+    padding-top: 10rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#ch3NameInput {
+    background-color: rgba(255, 255, 255, 0);;
+    border: none;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+}
+
+#ch3NameInput::placeholder{
+    color: black;
+}
+
+#ch3FoodInput {
+    background-color: rgba(255, 255, 255, 0);;
+    border: none;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+}
+
+#ch3FoodInput::placeholder{
+    color: black;
+}
+
+#ch3SubmitBtnRow {
+    padding-top: 17.5rem;
+}
+
+#ch3SubmitBtn {
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: black;
+    background-color: #DFA07A;
+    border: #CD4766 solid 0.15rem;
+}
+
+#ch3SubmitBtn:hover { 
+    color: white;
+    background-color: #CD4766;
+    border: #CD4766 solid 0.1rem;
+}
+/* Asking Questions */
+
+/* Greater Than Or Less Than */
+#greaterLesserBody {
+    background-image: url("../Assets/greaterThanOrLessThan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#greaterLesserNav {
+    background-color: #006D93;
+    padding-bottom: 0;
+}
+
+#greaterLesserRow {
+    padding-top: 15rem;
+}
+
+#ch4Txt {
+    font-size: 2.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: black;
+    background-color: #DCE3E2;
+    border: #0182AC solid 0.15rem;
+}
+
+.greaterLesserInputDivs {
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    font-size: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: black;
+    background-color: #DCE3E2;
+    border: #0182AC solid 0.15rem;
+}
+
+#ch4Input1 {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);;
+    border: none;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    width: 20%;
+}
+#ch4Input1::placeholder{ color: black; }
+#ch4Input1:focus { outline: none; }
+
+#ch4Input2 {
+    background-color: rgba(255, 255, 255, 0);;
+    border: none;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    width: 20%;
+}
+#ch4Input2::placeholder{ color: black; }
+#ch4Input2:focus { outline: none; }
+
+#greaterLesserSubmitRow {
+    padding-top: 10rem;
+}
+
+#ch4SubmitBtn {
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: black;
+    background-color: #DCE3E2;
+    border: #0182AC solid 0.15rem;
+}
+
+#ch4SubmitBtn:hover { 
+    color: white;
+    background-color: #0182AC;
+    border: #0182AC solid 0.1rem;
+}
+/* Greater Than Or Less Than */
+
+/* Mad Lib */
+#madLibBody {
+    background-image: url("../Assets/madLib.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#madLibNav {
+    background-color: #A73C56;
+    padding-bottom: 0rem;
+}
+
+#ch5TxtDiv {
+    padding-top: 5rem;
+}
+
+#ch5Txt {
+    color: rgb(229, 229, 229);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+.ch5InputRow {
+    padding-top: 3rem;
+}
+
+.ch5InputDiv {
+    display: flex;
+    color: black;
+    background-color: #EABEC5;
+    border: #A12A48 solid 0.15rem;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+.ch5EnterTxt {
+    font-size: 1.5rem;
+}
+
+.leftMadLibCol {
+    display: flex;
+}
+
+.madLibInputLeft {
+    text-align: end;
+    background-color: rgba(255, 255, 255, 0);;
+    border: none;
+    font-size: 2rem;
+    color: black;
+    margin-left: auto;
+    width: 20%;
+    text-align: end;
+}
+.madLibInputLeft::placeholder {
+    color: black;
+    font-size: 1.5rem;
+}
+.madLibInputLeft:focus { outline: none; }
+
+.rightMadLibCol {
+    display: flex;
+}
+
+#ch5SubmitBtnCol {
+    display: flex;
+    justify-content: center;
+}
+
+.madLibInputRight {
+    font-size: 1.75rem;
+    text-align: end;
+    background-color: rgba(255, 255, 255, 0);;
+    border: none;
+    font-size: 2rem;
+    color: black;
+    margin-left: auto;
+    width: 20%;
+    text-align: end;
+}
+.madLibInputRight::placeholder {
+    color: black;
+    font-size: 1.5rem;
+}
+.madLibInputRight:focus { outline: none; }
+
+#ch5SubmitBtn {
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: black;
+    background-color: #EABEC5;
+    border: #A12A48 solid 0.15rem;
+}
+
+#ch5SubmitBtn:hover { 
+    color: white;
+    background-color: #A12A48;
+    border: #A12A48 solid 0.1rem;
+}
+/* Mad Lib */
+
+/* Odd Or Even */
+#oddOrEvenBody {
+    background-image: url("../Assets/oddOrEven.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#oddOrEvenNav {
+    background-color: #009AD8;
+    padding-bottom: 0rem;
+}
+
+#ch6TxtDiv {
+    padding-top: 6rem;
+}
+
+#ch6Txt {
+    text-align: center;
+    font-size: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 40%;
+    margin-right: 40%;
+    color: black;
+    background-color: #D9D9D9;
+    border: #0076B0 solid 0.15rem;
+    border-radius: 5px;
+}
+
+#ch6InputDiv {
+    padding-top: 12.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+#ch6Input {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 50%;
+    margin-right: 50%;
+    background-color: #D9D9D9;
+    border: #0076B0 solid 0.15rem;
+    border-radius: 5px;
+}
+#ch6Input::placeholder{ color: black; }
+#ch6Input:focus { outline: none; }
+
+#ch6SubmitBtnDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#ch6SubmitBtn {
+    color: black;
+    background-color: #D9D9D9;
+    border: #0076B0 solid 0.15rem;
+    border-radius: 5px;
+}
+
+#ch6SubmitBtn:hover { 
+    color: white;
+    background-color: #0076B0;
+    border: #0076B0 solid 0.15rem;
+}
+/* Odd Or Even */
+
+/* Reverse It */
+#reverseItBody {
+    background-image: url("../Assets/reverseIt.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#reverseItNav {
+    background-color: #E07FB3;
+    padding-bottom: 0;
+}
+
+#ch7TopRow {
+    padding-top: 15rem;
+}
+
+#ch7Input {
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+#ch7Input::placeholder{ color: black; }
+#ch7Input:focus { outline: none; }
+
+#ch7Txt {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#ch7SubmitBtnCol {
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+#ch7SubmitBtn {
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: black;
+    background-color: #F4B6F0;
+    border: #F754B0 solid 0.15rem;
+    border-radius: 5px;
+}
+
+#ch7SubmitBtn:hover { 
+    color: white;
+    background-color: #F754B0;
+    border: #F754B0 solid 0.15rem;
+}
+/* Reverse It */
+
+/* Student Directory */
+#studentDirectoryBody {
+    background-image: url("../Assets/studentDirectory.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#studentDirectoryNav {
+    background-color: #FAD700;
+    padding-bottom: 0;
+}
+
+.ch8PaddingRow {
+    padding-top: 2rem;
+}
+
+.ch8BtnLook {
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-size: 3rem;
+}
+
+.ch8BtnLook:hover { 
+    color: black;
+    background-color: rgba(255, 255, 255, 0); 
+    border: none;
+}
+
+.ch8Active {
+    border: 0.1rem solid black;
+}
+
+#ch8InputRow {
+    padding-top: 10rem;
+}
+
+#ch8Input {
+    text-align: center;
+    font-size: 3rem;
+    background-color: #74421E;
+    border: #F6D800 solid 0.15rem;
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+#ch8Input::placeholder{ color: white; }
+#ch8Input:focus { outline: none; }
+
+#ch8SubmitRow {
+    padding-top: 20rem;
+}
+
+#ch8SubmitBtn {
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: black;
+    background-color: #D1DBDF;
+    border: #C37146 solid 0.15rem;
+    border-radius: 5px;
+}
+
+#ch8SubmitBtn:hover { 
+    color: white;
+    background-color: #C37146;
+    border: #C37146 solid 0.15rem;
+}
+
+.ch8OutputLook {
+    background-color: #FAD700;
+    border: 0.1rem solid black;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+/* Student Directory */
+
+/* Restaurant Picker */
+#restaurantPickerBody {
+    background-image: url("../Assets/restaurantPicker.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#restaurantPickerNav {
+    background-color: #E854CE;
+    padding-bottom: 0;
+}
+
+#ch9TxtRow {
+    padding-top: 7.5rem;
+}
+
+#ch9TxtCol {
+    display: flex;
+    justify-content: center;
+    background-color: #FEBAF8;
+    border: 0.15rem solid #66EBFA;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+#ch9BtnRow {
+    padding-top: 15rem;
+}
+
+#ch9BtnCol {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fastDeliveryBtns {
+    font-size: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: black;
+    background-color: #73EBFB;
+    border: #EAC4F1 solid 0.15rem;
+    border-radius: 5px;
+}
+
+.fastDeliveryBtns:hover { 
+    color: black;
+    background-color: #EAC4F1;
+    border: #EAC4F1 solid 0.15rem;
+}
+
+.DineAllBtns {
+    font-size: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: black;
+    background-color: #FCE06D;
+    border: #2EB2E4 solid 0.15rem;
+    border-radius: 5px;
+}
+
+.DineAllBtns:hover { 
+    color: black;
+    background-color: #2EB2E4;
+    border: #2EB2E4 solid 0.15rem;
+}
+/* Restaurant Picker */

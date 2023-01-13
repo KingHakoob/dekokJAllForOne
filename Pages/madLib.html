@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body id="madLibBody">
+    <!-- Navbar -->
+    <nav id="madLibNav" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Jacob's All For One</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navTxt collapse navbar-collapse" id="navbarNav">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Mad Lib -->
+    <div class="row">
+        <div class="col-3">
+            <div class="ch5InputRow row">
+                <div class="leftMadLibCol col-12">
+                    <div class="ch5InputDiv">
+                        <h2 class="ch5EnterTxt">Enter a name: </h2>
+                        <input id="ch5Word1Input" type="text" class="madLibInputLeft form" style="font-size: 1rem" placeholder="Here">
+                    </div>
+                </div>
+            </div>
+            <div class="ch5InputRow row">
+                <div class="nameAndFoodCol col-12">
+                    <div class="ch5InputDiv">
+                        <h2 class="ch5EnterTxt">Enter an adjective: </h2>
+                        <input id="ch5Word2Input" type="text" class="madLibInputLeft form" style="font-size: 1rem" placeholder="Here">
+                    </div>
+                </div>
+            </div>
+            <div class="ch5InputRow row">
+                <div class="leftMadLibCol col-12">
+                    <div class="ch5InputDiv">
+                        <h2 class="ch5EnterTxt">Enter a noun: </h2>
+                        <input id="ch5Word3Input" type="text" class="madLibInputLeft form" style="font-size: 1rem" placeholder="Here">
+                    </div>
+                </div>
+            </div>
+            <div class="ch5InputRow row">
+                <div class="nameAndFoodCol col-12">
+                    <div class="ch5InputDiv">
+                        <h2 class="ch5EnterTxt">Enter a plural noun: </h2>
+                        <input id="ch5Word4Input" type="text" class="madLibInputLeft form" style="font-size: 1rem" placeholder="Here">
+                    </div>
+                </div>
+            </div>
+            <div class="ch5InputRow row">
+                <div class="leftMadLibCol col-12">
+                    <div class="ch5InputDiv">
+                        <h2 class="ch5EnterTxt">Enter a noun: </h2>
+                        <input id="ch5Word5Input" type="text" class="madLibInputLeft form" style="font-size: 1rem" placeholder="Here">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div id="ch5TxtDiv">
+            <h3 id="ch5Txt">Fill In The Mad Lib</h3>
+        </div>
+        </div>
+        <div class="col-3">
+            <div class="ch5InputRow row">
+                <div class="rightMadLibCol col-12">
+                    <div class="ch5InputDiv">
+                        <h2 class="ch5EnterTxt">Enter a place: </h2>
+                        <input id="ch5Word6Input" type="text" class="madLibInputRight form" style="font-size: 1rem" placeholder="Here">
+                    </div>
+                </div>
+            </div>
+            <div class="ch5InputRow row">
+                <div class="nameAndFoodCol col-12">
+                    <div class="ch5InputDiv">
+                        <h2 class="ch5EnterTxt">Enter a verb: </h2>
+                        <input id="ch5Word7Input" type="text" class="madLibInputRight form" style="font-size: 1rem" placeholder="Here">
+                    </div>
+                </div>
+            </div>
+            <div class="ch5InputRow row">
+                <div class="leftMadLibCol col-12">
+                    <div class="ch5InputDiv">
+                        <h2 class="ch5EnterTxt">Enter a vehicle: </h2>
+                        <input id="ch5Word8Input" type="text" class="madLibInputRight form" style="font-size: 1rem" placeholder="Here">
+                    </div>
+                </div>
+            </div>
+            <div class="ch5InputRow row">
+                <div class="nameAndFoodCol col-12">
+                    <div class="ch5InputDiv">
+                        <h2 class="ch5EnterTxt">Enter an adjective: </h2>
+                        <input id="ch5Word9Input" type="text" class="madLibInputRight form" style="font-size: 1rem" placeholder="Here">
+                    </div>
+                </div>
+            </div>
+            <div class="ch5InputRow row">
+                <div class="leftMadLibCol col-12">
+                    <div class="ch5InputDiv">
+                        <h2 class="ch5EnterTxt">Enter a noun: </h2>
+                        <input id="ch5Word10Input" type="text" class="madLibInputRight form" style="font-size: 1rem" placeholder="Here">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div id="ch5SubmitBtnCol" class="col-12">
+            <button id="ch5SubmitBtn" type="button" class="btn btn-primary">Submit Answers</button>
+        </div>
+    </div>
+    <!-- Mad Lib -->
+
+    <script src="../Scripts/madLib.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
